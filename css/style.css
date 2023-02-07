@@ -1,265 +1,478 @@
-body {
-    background-color: #fff;
-    color: #777;
-    font: normal 15px "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+/* body {
+  background-color: #fff;
+  color: #777;
+  font: normal 15px "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
 }
 
-
 h1 {
-    font-family: 'Crete Round', serif;
-    font-weight: bold;
-    color: #444;
-    font-size: 45px;
-    margin-bottom: 20px;
+  font-family: "Crete Round", serif;
+  font-weight: bold;
+  color: #444;
+  margin-bottom: 20px;
 }
 
 h2 {
-    font-weight: 300;
-    color: #444;
-    font-size: 55px;
-    text-transform: uppercase;
-    text-align: center;
-    margin-bottom: 20px;
+  font-weight: 300;
+  color: #444;
+  font-size: 55px;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 20px;
 }
 
 h3 {
-    font-size: 30px;
-    color: #444;
-    font-weight: bold;
-    text-transform: uppercase;
-    text-align: center;
-    margin-bottom: 20px;
+  font-size: 30px;
+  color: #444;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 20px;
 }
 
 h4 {
-    font-size: 24px;
-    color: #444;
-    font-weight: bold;
-    text-transform: uppercase;
-    margin-bottom: 20px;
+  font-size: 24px;
+  color: #444;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 20px;
 }
 
 h5 {
-    font-size: 15px;
-    color: #444;
-    font-weight: bold;
-    text-transform: uppercase;
+  font-size: 15px;
+  color: #444;
+  font-weight: bold;
+  text-transform: uppercase;
 }
 
 a {
-    text-decoration: none;
-    color: #444;
+  text-decoration: none;
+  color: #444;
 }
 
 a:hover {
-    color: #02b8dd;
+  color: #02b8dd;
 }
 
 strong {
-    font-weight: bold;
+  font-weight: bold;
 }
 
 small {
-    font-size: 13px;
-    color: #777;
-    font-style: italic;
+  font-size: 13px;
+  color: #777;
+  font-style: italic;
 }
 
 .clear {
-    clear: both;
+  clear: both;
 }
 
 
-
-
-/* navbar */
-
 .header-wrapper {
-    height: 7vh;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+  height: 7vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
 
 h1 {
-    display: flex;
-    align-items: center;
-    margin-left: 25px;
+  display: flex;
+  align-items: center;
+  margin-left: 25px;
 }
 
 h1 .color {
-    color: #02b8dd;
+  color: #02b8dd;
 }
 
 nav {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    font-size: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
 }
-
 
 .home,
 .about-us,
 .images,
 .services {
-    margin-left: 25px;
+  margin-left: 25px;
 }
-
 
 .services {
-    margin-right: 25px;
+  margin-right: 25px;
 }
-
 
 #home-page {
-    height: 93vh;
-    display: flex;
-    align-items: center;
+  height: 93vh;
+  display: flex;
+  align-items: center;
 }
-
 
 .home-wrapper {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
-
 
 #hero-image {
-    height: 580px;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background: #e8eced url('../images/hero.jpg') no-repeat center;
+  height: 580px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #e8eced url("../images/hero.jpg") no-repeat center;
 }
 
-
-
-
-
 .button-1 {
-    display: block;
-    text-align: center;
-    background: #444;
-    border-radius: 3px;
-    color: #fff;
-    width: 180px;
-    height: 50px;
-    font-size: 20px;
-    line-height: 50px;
-    margin: 0 auto;
+  display: block;
+  text-align: center;
+  background: #444;
+  border-radius: 3px;
+  color: #fff;
+  width: 180px;
+  height: 50px;
+  font-size: 20px;
+  line-height: 50px;
+  margin: 0 auto;
 }
 
 .button-1:hover {
-    background-color: #02b8dd;
-    color: #fff;
+  background-color: #02b8dd;
+  color: #fff;
 }
 
-
 #about-us-page {
-    height: 100vh;
-    background-color: #f8fafa;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    color: black;
+  height: 100vh;
+  background-color: #f8fafa;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: black;
 }
 
 .about-us-work {
-    font-size: 60px;
+  font-size: 60px;
 }
 
 .about-us-details,
 .about-us-motive {
-    font-size: 40px;
+  font-size: 40px;
 }
-
-
 
 #images-page {
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    position: relative;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
 }
-
 
 .slider {
-   width: 60%;
-   height: 500px;
-   box-shadow: 0px 0px 3px grey;
-   position: relative;
-   overflow: hidden;
+  width: 60%;
+  height: 500px;
+  box-shadow: 0px 0px 3px grey;
+  position: relative;
+  overflow: hidden;
 }
 
-.slide{
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    transition: 1s;
+.slide {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  transition: 1s;
 }
 
-
-.prev-btn, .next-btn {
-    height: 40px;
-    position: absolute;
+.prev-btn,
+.next-btn {
+  height: 40px;
+  position: absolute;
 }
 
-.prev-btn{
-    left: 20%;
-    top: 60%;
+.prev-btn {
+  left: 20%;
+  top: 60%;
 }
 
-.next-btn{
-    right: 20%;
-    top: 60%
+.next-btn {
+  right: 20%;
+  top: 60%;
 }
 
-.lorem{
-    max-width: 60%;
+.lorem {
+  max-width: 60%;
 }
 
-
-#services-page{
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-
+#services-page {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
-
-
 
 footer {
-    padding: 60px 0;
-    background-color: #f8fafa;
+  padding: 60px 0;
+  background-color: #f8fafa;
 }
 
 #footer-info {
-    width: 380px;
-    float: left;
-    margin-top: 10px;
+  width: 380px;
+  float: left;
+  margin-top: 10px;
 }
 
 #footer-links {
-    width: 520px;
-    float: right;
+  width: 520px;
+  float: right;
 }
 
 #footer-links ul {
-    width: 150px;
-    float: left;
-    margin-left: 20px;
+  width: 150px;
+  float: left;
+  margin-left: 20px;
 }
 
 #footer-links ul li {
-    margin: 10px 0;
-} 
+  margin: 10px 0;
+}
+ */
+
+body {
+  background-color: #fff;
+  color: #777;
+  font: normal 15px "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: #444;
+}
+
+a:hover {
+  color: #02b8dd;
+}
+
+strong {
+  font-weight: bold;
+}
+
+small {
+  font-size: 13px;
+  color: #777;
+  font-style: italic;
+}
+
+.clear {
+  clear: both;
+}
+
+/* header */
+.info {
+  font-weight: 300;
+  color: #444;
+  font-size: 55px;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.header-wrapper {
+  height: 7vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.website-name {
+  display: flex;
+  align-items: center;
+  margin-left: 25px;
+  color: black;
+}
+
+.color {
+  color: #02b8dd;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+}
+
+.home,
+.about-us,
+.images,
+.services {
+  margin-left: 25px;
+}
+
+.services {
+  margin-right: 25px;
+}
+
+/* home-page */
+#home-page {
+  margin-top: 12px;
+  display: flex;
+  align-items: center;
+}
+
+.home-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#hero-image {
+  height: 580px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #e8eced url("../images/hero.jpg") no-repeat center;
+}
+
+.button-1 {
+  display: block;
+  text-align: center;
+  background: #444;
+  border-radius: 3px;
+  color: #fff;
+  width: 180px;
+  height: 50px;
+  font-size: 20px;
+  line-height: 50px;
+  margin: 0 auto;
+}
+
+.button-1:hover {
+  background-color: #02b8dd;
+  color: #fff;
+}
+
+/* about-us-page */
+#about-us-page {
+  margin-top: 12px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: black;
+  background-color: #edeff0;
+}
+
+.about-us-title {
+  font-weight: 300;
+  color: #444;
+  font-size: 55px;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.about-us-motive {
+  font-size: 35px;
+  color: #444;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 20px;
+  width: 90%;
+}
+
+.about-us-descr {
+  width: 70%;
+  text-align: justify;
+}
+
+/* images-page */
+#images-page {
+  margin-top: 12px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.images-title {
+  font-weight: 300;
+  color: #444;
+  font-size: 55px;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.images-descr {
+  width: 70%;
+  text-align: justify;
+}
+
+.slider {
+  width: 70%;
+  height: 400px;
+  box-shadow: 0px 0px 3px grey;
+  position: relative;
+  overflow: hidden;
+}
+
+.slide {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  transition: 1s;
+}
+
+.prev-btn,
+.next-btn {
+  height: 40px;
+  position: absolute;
+}
+
+.prev-btn {
+  left: 15%;
+  top: 58%;
+}
+
+.next-btn {
+  right: 15%;
+  top: 58%;
+}
+
+/* services-page */
+#services-page {
+  margin-top: 12px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #edeff0;
+}
+
+.services-title {
+  font-weight: 300;
+  color: #444;
+  font-size: 55px;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* footer */
+footer {
+  margin-top: 20px;
+  padding: 15px 0;
+  display: flex;
+  justify-content: center;
+  background-color: #edeff0;
+  color: black;
+}
