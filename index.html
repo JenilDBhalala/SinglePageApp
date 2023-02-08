@@ -1,92 +1,158 @@
 <!DOCTYPE HTML>
 <html>
-    <head>
-        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-        <title>WeAreHere</title>
-    
-        <link rel="stylesheet" type="text/css" href="css/style.css">
-        <link href='http://fonts.googleapis.com/css?family=Crete+Round' rel='stylesheet' type='text/css'>
-    </head>
 
-    <body>
-        <!-- header -->
-        <header>
-            <div class="header-wrapper">
-                <h1 class="website-name">WeAreHere<span class="color">.</span></h1>
-                <nav>
-                    <a href="#" class="home">Home</a>
-                    <a href="#" class="about-us">About Us</a>
-                    <a href="#" class="images">Images</a>
-                    <a href="#" class="services">Services</a>
-                    </ul>
-                </nav>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>WeAreHere</title>
+
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined" rel="stylesheet">
+</head>
+
+<body>
+    <!-- header -->
+    <header>
+        <div class="header-wrapper">
+            <a class="website-name">WeAreHere<span class="color">.</span></a>
+            <nav>
+                <a href="#" class="home">Home</a>
+                <a href="#" class="about-us">About Us</a>
+                <a href="#" class="images">Projects</a>
+                <a href="#" class="services">Services</a>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- home section -->
+    <section id="home-page">
+        <div id="hero-image">
+            <div class="home-wrapper">
+                <h2 class="info"><strong>A Minimal, clean</strong><br />
+                    layout for web design.</h2>
+                <a href="#" class="button-1">Let's Build</a>
             </div>
-        </header>
+        </div>
+    </section>
 
-        <!-- home section -->
-        <section id="home-page">
-            <div id="hero-image">
-                <div class="home-wrapper">
-                    <h2 class="info"><strong>A Minimal, clean</strong><br />
-                        layout for web design.</h2>
-                    <a href="#" class="button-1">Get Started</a>
-                </div>
+    <!-- about-us section -->
+    <section id="about-us-page">
+        <h2 class="about-us-title">About Us</h2>
+        <h3 class="about-us-motive">Anyone can have an idea. <br/> We want you to have the power and support to get it online.
+        </h3>
+        <p class="about-us-descr">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Debitis velit deserunt sapiente accusamus sed eius
+            et non repellat mollitia explicabo libero fugiat at voluptas temporibus commodi ex, aspernatur ipsam quidem!
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Debitis velit deserunt sapiente accusamus sed eius
+            et non repellat mollitia explicabo libero fugiat at voluptas temporibus commodi ex, aspernatur ipsam quidem!
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Debitis velit deserunt sapiente accusamus sed eius
+            et non repellat mollitia explicabo libero fugiat at voluptas temporibus commodi ex, aspernatur ipsam quidem!
+        </p>
+        <p class="about-us-descr">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Debitis velit deserunt sapiente accusamus sed eius
+            et non repellat mollitia explicabo libero fugiat at voluptas temporibus commodi ex, aspernatur ipsam quidem!
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Debitis velit deserunt sapiente accusamus sed eius
+            et non repellat mollitia explicabo libero fugiat at voluptas temporibus commodi ex, aspernatur ipsam quidem!
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Debitis velit deserunt sapiente accusamus sed eius
+            et non repellat mollitia explicabo libero fugiat at voluptas temporibus commodi ex, aspernatur ipsam quidem!
+        </p>
+        <p class="about-us-descr">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Debitis velit deserunt sapiente accusamus sed eius
+            et non repellat mollitia explicabo libero fugiat at voluptas temporibus commodi ex, aspernatur ipsam quidem!
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Debitis velit deserunt sapiente accusamus sed eius
+            et non repellat mollitia explicabo libero fugiat at voluptas temporibus commodi ex, aspernatur ipsam quidem!
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Debitis velit deserunt sapiente accusamus sed eius
+            et non repellat mollitia explicabo libero fugiat at voluptas temporibus commodi ex, aspernatur ipsam quidem!
+        </p>
+    </section>
+
+    <!-- images section -->
+    <section id="images-page">
+        <h2 class="images-title">Some of our Projects</h2>
+        <p class="images-descr">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Debitis velit deserunt sapiente accusamus sed eius
+            et non repellat mollitia explicabo libero fugiat at voluptas temporibus commodi ex, aspernatur ipsam quidem!
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Debitis velit deserunt sapiente accusamus sed eius
+            et non repellat mollitia explicabo libero fugiat at voluptas temporibus commodi ex, aspernatur ipsam quidem!
+        </p>
+        <div class="slider">
+            <img src="https://picsum.photos/id/243/1000/500" alt="" class="slide">
+            <img src="https://picsum.photos/id/238/1000/500" alt="" class="slide">
+            <img src="https://picsum.photos/id/241/1000/500" alt="" class="slide">
+            <img src="https://picsum.photos/id/242/1000/500" alt="" class="slide">
+            <img src="https://picsum.photos/id/240/1000/500" alt="" class="slide">
+            <img src="https://picsum.photos/id/239/1000/500" alt="" class="slide">
+        </div>
+
+        <button class="prev-btn" onclick="goPrev()">❮</button>
+        <button class="next-btn" onclick="goNext()">❯</button>
+    </section>
+
+    <!-- services section -->
+    <section id="services-page">
+        <h2 class="services-title">Our Services</h2>
+        <h3 class="services-descr">
+            Technical design partner and manager; <br/>
+            Happy sweating the small details
+            or leading projects and teams.
+        </h3>
+        <div class="services-grid">
+            <div class="service-grid-items">
+                <h1 class="service-type">Design</h1>
             </div>
-        </section>
-
-        <!-- about-us section -->
-        <section id="about-us-page">
-            <h2 class="about-us-title">About Us</h2>
-            <h3 class="about-us-motive">Anyone can have an idea. We want you to have the power and support to get it online.</h3>
-            <p class="about-us-descr">
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Debitis velit deserunt sapiente accusamus sed eius et non repellat mollitia explicabo libero fugiat at voluptas temporibus commodi ex, aspernatur ipsam quidem!
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Debitis velit deserunt sapiente accusamus sed eius et non repellat mollitia explicabo libero fugiat at voluptas temporibus commodi ex, aspernatur ipsam quidem!
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Debitis velit deserunt sapiente accusamus sed eius et non repellat mollitia explicabo libero fugiat at voluptas temporibus commodi ex, aspernatur ipsam quidem!
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Debitis velit deserunt sapiente accusamus sed eius et non repellat mollitia explicabo libero fugiat at voluptas temporibus commodi ex, aspernatur ipsam quidem!
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Debitis velit deserunt sapiente accusamus sed eius et non repellat mollitia explicabo libero fugiat at voluptas temporibus commodi ex, aspernatur ipsam quidem!
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Debitis velit deserunt sapiente accusamus sed eius et non repellat mollitia explicabo libero fugiat at voluptas temporibus commodi ex, aspernatur ipsam quidem!
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Debitis velit deserunt sapiente accusamus sed eius et non repellat mollitia explicabo libero fugiat at voluptas temporibus commodi ex, aspernatur ipsam quidem!
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Debitis velit deserunt sapiente accusamus sed eius et non repellat mollitia explicabo libero fugiat at voluptas temporibus commodi ex, aspernatur ipsam quidem!
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Debitis velit deserunt sapiente accusamus sed eius et non repellat mollitia explicabo libero fugiat at voluptas temporibus commodi ex, aspernatur ipsam quidem!
-            </p>
-        </section>
-
-        <!-- images section -->
-        <section id="images-page">
-            <h2 class="images-title">Let's see some Images</h2>
-            <div class="slider">
-                <img src="https://picsum.photos/id/238/1000/500" alt="" class="slide">
-                <img src="https://picsum.photos/id/239/1000/500" alt="" class="slide">
-                <img src="https://picsum.photos/id/240/1000/500" alt="" class="slide">
-                <img src="https://picsum.photos/id/241/1000/500" alt="" class="slide">
-                <img src="https://picsum.photos/id/242/1000/500" alt="" class="slide">
+            <div class="service-grid-items">
+                <h2 class="service-type-title">UX + Research</h2>
+                <p class="service-title-descr">Make a product or service more compelling by implementing best practices, user research, and usability
+                testing.</p>
+            </div>
+            <div class="service-grid-items">
+                <h2 class="service-type-title">UI + Interaction</h2>
+                <p class="service-title-descr">Polished interaction design for software experiences on any screen size.</p>
+            </div>
+            <div class="service-grid-items">
+                <h2 class="service-type-title">Brand + Identity</h2>
+                <p class="service-title-descr">Graphic design of identity and collateral that move organizations’ brand strategy forward.</p>
             </div>
 
-            <button class="prev-btn" onclick="goPrev()">❮</button>
-            <button class="next-btn" onclick="goNext()">❯</button>
-        </section>
+            <div class="service-grid-items">
+                <h1 class="service-type">Code</h1>
+            </div>
+            <div class="service-grid-items">
+                <h2 class="service-type-title">Component Systems</h2>
+                <p class="service-title-descr">Implementing interfaces and component systems for production. (Currently liking TypeScript, React, JSS,
+                Sass.) </p>
+            </div>
+            <div class="service-grid-items">
+                <h2 class="service-type-title">Website + CMS</h2>
+                <p class="service-title-descr">Extensive experience designing and developing marketing websites, blogs, and microsites. (Sometimes
+                JAMstack, still appreciating WordPress.)</p>
+            </div>
+            <div class="service-grid-items">
 
-        <!-- services section -->
-        <section id="services-page">
-            <h2 class="services-title">Our Services</h2>
-            <h3 class="about-us-motive">Anyone can have an idea. We want you to have the power and support to get it online.</h3>
-            <p class="about-us-descr">
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Debitis velit deserunt sapiente accusamus sed eius et non repellat mollitia explicabo libero fugiat at voluptas temporibus commodi ex, aspernatur ipsam quidem!
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Debitis velit deserunt sapiente accusamus sed eius et non repellat mollitia explicabo libero fugiat at voluptas temporibus commodi ex, aspernatur ipsam quidem!
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Debitis velit deserunt sapiente accusamus sed eius et non repellat mollitia explicabo libero fugiat at voluptas temporibus commodi ex, aspernatur ipsam quidem!
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Debitis velit deserunt sapiente accusamus sed eius et non repellat mollitia explicabo libero fugiat at voluptas temporibus commodi ex, aspernatur ipsam quidem!
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Debitis velit deserunt sapiente accusamus sed eius et non repellat mollitia explicabo libero fugiat at voluptas temporibus commodi ex, aspernatur ipsam quidem!
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Debitis velit deserunt sapiente accusamus sed eius et non repellat mollitia explicabo libero fugiat at voluptas temporibus commodi ex, aspernatur ipsam quidem!
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Debitis velit deserunt sapiente accusamus sed eius et non repellat mollitia explicabo libero fugiat at voluptas temporibus commodi ex, aspernatur ipsam quidem!
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Debitis velit deserunt sapiente accusamus sed eius et non repellat mollitia explicabo libero fugiat at voluptas temporibus commodi ex, aspernatur ipsam quidem!
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Debitis velit deserunt sapiente accusamus sed eius et non repellat mollitia explicabo libero fugiat at voluptas temporibus commodi ex, aspernatur ipsam quidem!
-            </p>
-        </section>
+            </div>
+            <div class="service-grid-items">
+                <h1 class="service-type">Management</h1>
+            </div>
+            <div class="service-grid-items">
+                <h2 class="service-type-title">Design + Product Orgs</h2>
+                <p class="service-title-descr">Growing internal design and product teams that make an impact (and engineers love working with).</p>
+            </div>
+            <div class="service-grid-items">
+                <h2 class="service-type-title">Agile</h2>
+                <p class="service-title-descr">Helping product teams find their organizational stride to ship faster.</p>
+            </div>
+        
+            <div class="service-grid-items">
 
-        <!-- footer section -->
-        <footer>
-            Copyright &#169; 2023 &nbsp; <b>WeAreHere.com</b> &nbsp; All Rights Reserved
-        </footer> 
-        <script src="script.js"></script>
-    </body>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer section -->
+    <footer>
+        Copyright &#169; 2023 &nbsp; <b>WeAreHere.com</b> &nbsp; All Rights Reserved
+    </footer>
+    <script src="script.js"></script>
+</body>
+
 </html>

@@ -32,13 +32,15 @@ const slideImage = () => {
 }
 
 
+//scrolling to particular section
 
 const homeAccess = document.querySelector('.home');
 const aboutAccess = document.querySelector('.about-us');
 const imagesAccess = document.querySelector('.images');
 const servicesAccess = document.querySelector('.services');
+const logoAccess = document.querySelector('.website-name');
 
-//scrolling to particular section
+
 function scrolltoId(id) {
     var access = document.getElementById(id);
     access.scrollIntoView({ behavior: 'smooth' });
@@ -49,6 +51,10 @@ homeAccess.addEventListener('click', (e)=>{
     scrolltoId('home-page');
 })
 
+logoAccess.addEventListener('click', (e)=>{
+    e.preventDefault()
+    scrolltoId('home-page');
+})
 
 aboutAccess.addEventListener('click', (e)=>{
     e.preventDefault()
@@ -66,3 +72,21 @@ servicesAccess.addEventListener('click', (e)=>{
     e.preventDefault()
     scrolltoId('services-page');
 })
+
+
+
+
+// const nav = document.querySelector('.header-wrapper');
+// const observer = new IntersectionObserver((entry)=>{
+//     const [id] = entry
+//     if(id.intersectionRatio){
+//         nav.classList.remove('sticky');
+//     }else{
+//         nav.classList.add('sticky');
+//     }
+// },{
+//     root:null,
+//     threshold:0,
+//     rootMargin:`-${nav.clientHeight}px`
+// })
+// observer.observe(document.querySelector('#home-page'))
