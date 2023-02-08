@@ -18,6 +18,10 @@ const goPrev = () => {
     slideImage();
 }
 
+setInterval(() => {
+    goNext();
+}, 3000)
+
 const goNext = () => {
     counter = (counter + 1) % totalLength;
     slideImage();

@@ -1,7 +1,7 @@
 body {
   background-color: #fff;
   color: #777;
-  font-family: "Inter", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: 'Roboto', sans-serif;
   box-sizing: border-box;
   margin: 0;
   padding: 0;
@@ -17,7 +17,7 @@ a:hover {
 }
 
 strong {
-  font-weight: bold;
+  font-weight: 500;
 }
 
 small {
@@ -157,7 +157,7 @@ nav {
 .about-us-motive {
   font-size: 35px;
   color: #444;
-  font-weight: bold;
+  font-weight: 500;
   text-align: center;
   margin-bottom: 20px;
   width: 80%;
@@ -236,9 +236,9 @@ nav {
 }
 
 .services-title {
-  font-weight: 300;
   color: #444;
   font-size: 55px;
+  font-weight: 300;
   text-transform: uppercase;
   text-align: center;
   margin-bottom: 20px;
@@ -247,12 +247,11 @@ nav {
 .services-descr {
   font-size: 35px;
   color: #444;
-  font-weight: bold;
+  font-weight: 500;
   text-align: center;
   margin-bottom: 30px;
   width: 90%;
 }
-
 
 .services-grid {
   display: grid;
@@ -262,9 +261,13 @@ nav {
   column-gap: 10px;
 }
 
-
 .service-type {
   font-size: 26px;
+  font-weight: 400;
+}
+
+.service-type-title{
+  font-weight: 400;
 }
 
 .service-title-descr {
@@ -285,13 +288,14 @@ footer {
 }
 
 
-@media screen and (max-width: 1230px) {
+@media screen and (min-width: 1000px) {
   .header-wrapper {
     font-size: 18px;
+    height: 10vh;
   }
 
   .website-name{
-    font-size: 20px;
+    font-size: 24px;
   }
 
   .home,
